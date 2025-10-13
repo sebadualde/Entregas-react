@@ -1,4 +1,3 @@
-// src/components/ItemListContainer.jsx
 const ItemListContainer = ({ greeting }) => {
   return (
     <div className="container text-center my-5">
