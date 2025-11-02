@@ -1,37 +1,16 @@
 /* ===== Estilos generales ===== */
 
-body {
-  background-color: #f8f9fa; /* gris claro tipo Bootstrap */
-  font-family: "Poppins", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+:root{
+  --brand:#111827;
+  --accent:#ffcc00;
 }
-
-/* ===== Navbar ===== */
-
-.navbar {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+body{
+  font-family: 'Poppins', sans-serif;
+  background:#f4f6f8;
+  margin:0;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
-
-/* ===== Texto principal ===== */
-
-h1 {
-  color: #0d6efd; /* azul Bootstrap */
-}
-
-p {
-  color: #6c757d; /* gris Bootstrap */
-  font-size: 1.1rem;
-}
-
-/* ===== Botón del carrito ===== */
-
-button.btn-light {
-  border: none;
-  transition: transform 0.2s ease, background-color 0.3s ease;
-}
-
-button.btn-light:hover {
-  transform: scale(1.1);
-  background-color: #e9ecef;
-}
+a { text-decoration:none; }
+.container-main{ padding:2rem 1rem; }
